@@ -4,83 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Personal Website | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 </head>
-<body>
-    <nav>
-        <h2>
-            <!--create an amazing below about me-->
-            <i>
-                Hi there am Katende Nicholas aka the Code Artisan 
-
-            </i>
-            <a href="./hobbies.html">Hobbies and Interests</a>
-
-            <hr/>
-            
-        </h2>
-        <img
-             src="./images/profile.jpeg"
-            width="100%"
-           height="500vh"
-            alt="This is a profile image"
-        
-    />
-    </nav>
-    <section>
-        <h1>About Me</h1>
-        <p>
-            I am full stack javascript/PHP developer working primarily with React and React Native in Typescript to
-            build frontend applications and Laravel to build server side rest APIS. I am also passionate about other 
-            technologies such as nodejs/express and Django . I have been programming for about 4 years with about  <strong>
-                3 years 
-            </strong> of experience working experience as a contract software Engineer . I am always looking out for new development trends and ideas
-            , an enthusiatic Learner and always striving for excellence
-            <strong>
-                <a href="github.com/katznicho" target="_blank">GitHub Link</a>
-            </strong>
-
-           </p>
-
-    </section>
-    <hr/>
-    <section>
-        <h1>Contact Me</h1>
-        <form method="POST" action="mailto:katznicho@gmail.com"
-        enctype="multipart/form-data">
-            <div>
-                <label for="name">Name</label>
+<body class="index">
+ <div class="index__firstsection">
+    <a class="index__mybio" href="./MyBio.html">
+        <div >
+            <div class="index__mybioContainer">
+                <h1 class="index__mybioBio"> MY BIO</h1>
+                
             </div>
+           
+    
+        </div>
+    </a>
 
-            <input type="name" 
-            placeholder="enter your name"
-            name="name"
-            
-            />
-            <br/>
-
-
-            <div>
-                <label for="name">Email</label>
+    <a href="./MyPhoto.html" class="index__myphoto">
+        <div >
+            <div class="index__myphotoContainer">
+                <h1 > MY PHOTO</h1>
             </div>
-            <input type="email" 
-            placeholder="enter your email"
-            name="name"
-        
-            />
-            &nbsp;
-            <br/>
-            <div>
-                <label for="name">Message</label>
+      
+        </div>
+    </a>
+
+
+ </div>
+
+
+ <div class="index__middlesection">
+    <a href="./MyEducation.html" class="index__myeduc">
+        <div class="index__myeduContainer">
+            <div class="index__innerDiv">
+                <h1 class="index__myeduWord"> MY EDUCATION HISTORY</h1>
             </div>
-             <textarea required rows="5" name="message">
-        
-             </textarea>
-            <br/>
-            <button type="submit" >send message</button>
-        </form>
-    </section>
-    <hr/>
+        </div>
+    </a>
+
+ </div>
+
+
+ <div class="index__lastsection">
+     
+    <a href="./hobbies.html" class="index__hobby">
+        <div class="index__yourhobbies">
+    
+            <div class="index__myphotoContainer">
+                <h1 class="index__mybioBio"> MY HOBBIES</h1>
+            </div>
+        </div>
+    </a>
+
+    <a href="./Contact.html" class="index__contact">
+          
+    <div class="index__contactMe" >
+       
+        <div class="index__myphotoContainer">
+            <h1 class="index__mybioBio"> CONTACT ME</h1>
+        </div>
+
+    </div>
+    </a>
+
+ </div>
     
 </body>
 </html>
